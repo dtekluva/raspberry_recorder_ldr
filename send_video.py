@@ -5,8 +5,6 @@ from email.message import EmailMessage
 def send_video(SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL):
     print("Sending Video")
     message = EmailMessage()
-    #sender = "kboysreel@gmail.com"
-    #recipient = "inyangete@gmail.com"
     message['From'] = SENDER_EMAIL
     message['To'] = RECIPIENT_EMAIL
     message['Subject'] = 'INTRUDER ALERT'

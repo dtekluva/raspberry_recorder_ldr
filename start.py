@@ -6,11 +6,11 @@ import time
 from video_capture import record_video
 from send_video import send_video
 
-video_length = 30 # Measured in seconds larger numbers = larger file size smaller is better due to network
+video_length = 10 # Measured in seconds larger numbers = larger file size smaller is better due to network
 GPIO.setmode(GPIO.BOARD)
 RECIPIENT_EMAIL="inyangete@gmail.com"
 SENDER_EMAIL="kboysreel@gmail.com"
-SENDER_PASSWORD = "19sedimat54"
+SENDER_PASSWORD = "XXXXX"
 
 #define the pin that goes to the circuit
 pin_to_circuit = 7
